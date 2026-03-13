@@ -1,6 +1,8 @@
-html, body {
+html,
+body {
   scroll-behavior: auto;
 }
+
 :root {
   /* Typography */
   --font-body: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
@@ -207,7 +209,7 @@ textarea {
   /* Banner background image + soft gradient overlay for readability */
   background-image:
     linear-gradient(120deg, rgba(15, 23, 42, 0.72), rgb(0 0 0 / 46%), rgb(15 23 42 / 50%)),
-    url("images/nmimsBanner.jpg");
+    url("images/aime-career.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2039,5 +2041,5 @@ textarea {
 
 
 body.modal-open {
-padding-right: 0 !important;
+  padding-right: 0 !important;
 }
